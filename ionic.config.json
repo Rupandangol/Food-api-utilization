@@ -1,0 +1,7 @@
+{
+  "name": "food-api-utilization",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue"
+}
