@@ -1,4 +1,4 @@
-## Food API Utility
+## Food API Utilization
 
 #### Requirements
 - npm/yarn
