@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">food-api-utilization</string>
+    <string name="title_activity_main">food-api-utilization</string>
+    <string name="package_name">com.gogfood.app</string>
+    <string name="custom_url_scheme">com.gogfood.app</string>
+</resources>
