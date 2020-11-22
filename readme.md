@@ -11,14 +11,21 @@ setup environment for development
 git clone <repo-link>
 npm install
 ionic resources
-ionic cordova platform add android
+npm run build
+npx cap add android
 ```
 
 ### Development
 Running application 
-- run `ionic cordova run android` for running application on dev env
-- run `ionic cordova run android -l` for live reload development on dev env
+- run `ionic capacitor run android` for running application on dev env
+- run `ionic capacitor run android -l --external` for live reload development on dev env
 
 ### Build
-- update gulpfile.js with (EDIT HERE :) for sdk path and build tool version
-- run `gulp dev-android` with your build config to output required apk build
+ extract apk build with following [steps](https://www.joshmorony.com/deploying-capacitor-applications-to-android-development-distribution/), since command line build is not yet supported for capacitor 
+
+- run `gulp dev-android`
+- After gradle sync with andoird studio, go to `Build > Generate APK` 
+- Select debug or release as per need 
+
+- release apk at /android/app/release
+- OR extract by run `gulp build-android` after updating gulpfile.js with (EDIT HERE :) for sdk path and build tool version
