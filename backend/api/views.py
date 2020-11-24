@@ -6,4 +6,4 @@ from utils.response_format_helper import successApi
 def index(request):
     data = Food.objects.all()
     serialized = serializers.serialize('json',data)
-    return JsonResponse(successApi('success',serialized))
+    return successApi('success',serialized)
