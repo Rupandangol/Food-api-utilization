@@ -2,7 +2,7 @@
 
 ```
 py -3 -m venv venv
-pip install requirements.txt 
+pip install -r requirements.txt 
 
 venv\Scripts\activate
 (venv) python manage.py runserver
