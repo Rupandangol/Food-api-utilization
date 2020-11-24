@@ -1,0 +1,13 @@
+{
+    "title": "All Food",
+    "description": "list of all Food",
+    "module": "api",
+    "request": "http://localhost:8000/api/food",
+    "method": "GET",
+    "response": {
+        "state": "success",
+        "code": 200,
+        "message": "Success",
+        "data": "[{\"model\": \"api.food\", \"pk\": 1, \"fields\": {\"name\": \"Describe always listen open. Like want perhaps maybe development statement west sure.\\nState lay both leader. Although middle realize at.\", \"slug\": \"index\", \"description\": \"Life serve especially seat heart increase. Within prove him. Rate alone vote important him loss.\\nWhom often research question. Around whether camera lay. Almost exist card like politics.\", \"serialize_nutrition\": \"Provide approach clearly else health police. Toward production miss music point television bring.\\nTrade natural both student view record seat. Federal about know star bit within work letter.\", \"status\": true, \"created_at\": \"2019-03-14T03:00:42Z\", \"updated_at\": \"2016-05-02T02:44:58Z\"}}]"
+    }
+}
